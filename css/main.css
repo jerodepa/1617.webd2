@@ -1,0 +1,24 @@
+
+/********** buttons **********/
+.button {
+    display: inline-bock;
+    border: solid rgb(211,81,158) 1.5px;
+    color: rgb(206,206,206);
+    text-align: center;
+    font-family:'Raleway';
+    font-size:12px;
+    border-radius:2px;  
+    padding: 6px 50px;
+}
+.button:hover {
+    background-color: rgba(211,81,158,.3);
+    color: rgb(206,206,206);
+}
+.button:visited {
+    color: rgb(206,206,206);
+}
+.button:active {
+    background-color:  rgb(206,206,206);
+    color: rgba(211,81,158,.3);
+
+}
