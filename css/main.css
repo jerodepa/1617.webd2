@@ -1,24 +1,54 @@
 
-/********** buttons **********/
-.button {
-    display: inline-bock;
-    border: solid rgb(211,81,158) 1.5px;
-    color: rgb(206,206,206);
+/******************** buttons ********************/
+/********** small button **********/
+.btnsmall {
+    display: inline-block;
+    border: solid 1px;
+    color: hsl(0, 0%, 0%);
+    border-color: hsl(0, 0%, 0%);
+    background-color: transparent;
+    padding: 0 16px;
+    text-decoration: none;
+    height: 37px;
     text-align: center;
-    font-family:'Raleway';
-    font-size:12px;
-    border-radius:2px;  
-    padding: 6px 50px;
-}
-.button:hover {
-    background-color: rgba(211,81,158,.3);
-    color: rgb(206,206,206);
-}
-.button:visited {
-    color: rgb(206,206,206);
-}
-.button:active {
-    background-color:  rgb(206,206,206);
-    color: rgba(211,81,158,.3);
 
+}
+
+.btnsmall:hover {   
+    transition: all .3s ease;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
+
+}
+
+.btnsmall:active {
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(196, 83%, 40%);
+    border-color: hsl(0, 0%, 0%);
+}
+
+/********** big button **********/
+.btnbig {
+    display: inline-block;
+    border: solid 1px;
+    color: hsl(0, 0%, 0%);
+    border-color: hsl(0, 0%, 0%);
+    background-color: transparent;
+    padding: 0 28px;
+    text-decoration: none;
+    height: 55px;
+    text-align: center;
+}
+
+.btnbig:hover {
+    transition: all .3s ease;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
+
+}
+
+.btnbig:active {
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(196, 83%, 40%);
+    border-color: hsl(0, 0%, 0%);
 }

@@ -3,15 +3,27 @@
 }
 
 body {
-  margin: 40;
+  margin: auto 50px;
   padding: 0;
 }
 
 h2.styleguide {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.6 rem;
-  border-bottom: solid 1px #000;
-  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  border-bottom: solid 2px #000;
+  color: #000;
   margin: 25px 0 15px;
+
   
 }
+.styleguides {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 5rem;
+  border: solid 5px #000;
+  color: #000;
+  margin: 25px 0;
+  padding: 5px 10px;
+  text-align: center;
+}
+

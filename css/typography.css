@@ -11,43 +11,110 @@ body {
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+h1, h2, h3, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.42;
+  margin: 0;
+  letter-spacing: 1px;
+}
+h4, h6, p, a {
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
   margin: 0;
-}
+} 
 
 h1 {
   font-size: 2.8rem;
-  color: hsl(240, 50%, 50%);
+  color: hsl(0, 0%, 0%);
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 2.4rem;
-  color: hsl(60, 50%, 50%);
-  margin-bottom: 15px;
+  font-size: 5.2rem;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 40px;
 }
 
 h3 {
-  font-size: 1.8rem;
-  color: hsl(240, 50%, 50%);
+  font-size: 4.8rem;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 14px;
+  color: hsl(0, 0%, 0%);
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
-a {
-  text-decoration: none;
-  color: hsl(240, 50%, 50%);
+h5 {
+  font-size: 34px;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 20px;
 }
 
-a:hover {
+h6 {
+  font-size: 20px;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 15px;
+}
+a.text {
+  font-size: 16px;
   text-decoration: none;
-  color: hsl(60, 50%, 50%);
+  color: hsl(196, 83%, 40%);
 }
 
-a:visited {
+a.text:hover {
+  transition: all .3s ease;
+  text-decoration: none;
+  color: hsla(196, 76%, 40%, 0.3);
+}
+
+a.text:visited {
   text-decoration: none;
 
+}
+
+a.text:active {
+  text-decoration: none;
+  color: hsl(196, 83%, 36%);
+}
+
+a.btnsmall {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;   
+  text-transform: uppercase;
+  line-height: 35px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+a.btnbig {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;   
+  text-transform: uppercase;
+  line-height: 53px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+p.sansserif {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: hsl(0, 0%, 0%);
+}
+p.serif {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: hsl(0, 0%, 0%);
+}
+span {
+  font-size: 12px;
+  text-transform: uppercase;
 }
