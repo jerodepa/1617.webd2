@@ -86,7 +86,7 @@ a.text:active {
   color: hsl(196, 83%, 36%);
 }
 
-a.btnsmall {
+a.btnsmall { 
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;   
   text-transform: uppercase;
@@ -109,11 +109,13 @@ p.sansserif {
   font-size: 16px;
   color: hsl(0, 0%, 0%);
 }
+
 p.serif {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: hsl(0, 0%, 0%);
 }
+
 span {
   font-size: 12px;
   text-transform: uppercase;

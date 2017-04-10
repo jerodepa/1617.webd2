@@ -14,7 +14,7 @@
 
 }
 
-.btnsmall:hover {   
+.btnsmall:hover {  
     transition: all .3s ease;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 0%);
