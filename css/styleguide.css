@@ -27,4 +27,11 @@ h2.styleguide {
   text-align: center;
 }
 
-
+h3.styleguide {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  border-bottom: solid 2px #444444;
+  color: #444444;
+  margin: 25px 0 15px;
+  text-transform: uppercase;
+}
