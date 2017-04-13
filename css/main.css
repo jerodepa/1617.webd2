@@ -12,6 +12,15 @@ body,html  {
 body, header, main, nav, footer, section, aside, article {
     display: block;
 }
+
+.container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /******************** logo ********************/
 #logo {
     width: 200px;
@@ -27,14 +36,6 @@ body, header, main, nav, footer, section, aside, article {
     border: 0;
     transition: all .5s ease;
     min-height: 62px;
-}
-
-.container {
-    width: 90%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #topnav .logo {
@@ -103,18 +104,58 @@ body, header, main, nav, footer, section, aside, article {
 .maincontainer{
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/probeersel.jpg');
+    background-image: url('../assets/images/wallpaper2.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
+/* first meet */
+.banner {
+    text-align: center;
+    padding-top: 33vh;
+}
+
+.banner .container {
+    margin-bottom: 5vh;
+}
+/******************** section under home *******************/
+.centerzin {
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+#centerzin {
+    text-align: center;
+}
 
 
+/******************** grid column *******************/
+.clearfix::after,
+.grid__row::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+.grid__row {
+    background-color: transparent;
+}
 
+.grid__column-4 {
+    display: block;
+    float: left;
+    padding: 20px;
+    margin: 0px;
+    text-align: center; 
+}
 
+.clear {
+    background: red;
+    clear: both;
+}
 
+.grid__column-4 { width: 33.33%; }
 
-
-
+.last {
+    margin-bottom: 100px;
+}
 
 /******************** buttons ********************/
 /********** small button **********/
@@ -170,3 +211,28 @@ body, header, main, nav, footer, section, aside, article {
     border-color: hsl(0, 0%, 0%);
 }
 
+/******************** footer ********************/
+footer {
+    background: hsl(60, 3.6%, 11%);
+    padding: 40px 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 100%;
+    vertical-align: baseline;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
