@@ -1,3 +1,120 @@
+/******************** allrounds ********************/
+* {
+    box-sizing: border-box;
+}
+
+body,html  {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+body, header, main, nav, footer, section, aside, article {
+    display: block;
+}
+/******************** logo ********************/
+#logo {
+    width: 200px;
+}
+/******************** header/navigation ********************/
+#topnav {
+    z-index: 599;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    border: 0;
+    transition: all .5s ease;
+    min-height: 62px;
+}
+
+.container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#topnav .logo {
+    float: left;
+    padding: 16px 0;
+}
+.menu-extras {
+    float: right;
+}
+
+.last__item {
+    padding-right: 20px;
+}
+
+#topnav #navigation {
+    display: block!important;
+}
+
+#topnav .navigation-menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#topnav .navigation-menu > li > a {
+    padding-top: 43.5px;
+    padding-bottom: 25px;
+    min-height: 62px;
+}
+
+.navigation-menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation-menu::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+.navigation__item {
+    background: transparent;
+    float: left;
+}
+.navigation__item a {
+    background: transparent;
+    color: hsl(60, 3.6%, 11%);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+
+.navigation__item a:hover {
+    color: hsl(196, 83%, 40%);
+}
+
+.navigation__item a:active {
+    color: hsl(0, 0%, 30%);
+}
+
+
+/******************** home ********************/
+.maincontainer{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/images/probeersel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
 
 /******************** buttons ********************/
 /********** small button **********/
@@ -52,3 +169,4 @@
     background-color: hsl(196, 83%, 40%);
     border-color: hsl(0, 0%, 0%);
 }
+
