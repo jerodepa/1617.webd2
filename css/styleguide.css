@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+.intro {
   margin: auto 50px;
   padding: 0;
 }
@@ -34,4 +34,9 @@ h3.styleguide {
   color: #444444;
   margin: 25px 0 15px;
   text-transform: uppercase;
+}
+
+footer.styleguidefooter {
+  background-color: transparent;
+  margin: auto 50px;
 }
