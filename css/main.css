@@ -186,7 +186,7 @@ body, header, main, nav, footer, section, aside, article {
 /********** small button **********/
 .btnsmall {
     display: inline-block;
-    border: solid 1px;
+    border: solid 1.5px;
     color: hsl(0, 0%, 0%);
     border-color: hsl(0, 0%, 0%);
     background-color: transparent;
@@ -213,7 +213,7 @@ body, header, main, nav, footer, section, aside, article {
 /********** big button **********/
 .btnbig {
     display: inline-block;
-    border: solid 1px;
+    border: solid 2px;
     color: hsl(0, 0%, 0%);
     border-color: hsl(0, 0%, 0%);
     background-color: transparent;
