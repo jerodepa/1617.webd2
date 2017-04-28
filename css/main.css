@@ -1,4 +1,4 @@
-/******************** allrounds ********************/
+/******************** allround - body ********************/
 * {
     box-sizing: border-box;
 }
@@ -102,7 +102,7 @@ body, header, main, nav, footer, section, aside, article {
 .navigation__item a:active {
     color: hsl(0, 0%, 30%);
 }
-
+/******************** end navigation ********************/
 
 /******************** home ********************/
 .maincontainer{
@@ -112,7 +112,7 @@ body, header, main, nav, footer, section, aside, article {
     background-position: center;
     background-repeat: no-repeat;
 }
-/* first meet */
+/* first meet quote */
 .banner {
     text-align: center;
     padding-top: 33vh;
@@ -121,7 +121,10 @@ body, header, main, nav, footer, section, aside, article {
 .banner .container {
     margin-bottom: 5vh;
 }
-/******************** section under home *******************/
+/******************** end home ********************/
+
+
+/******************** first section under home *******************/
 .centerzin {
     padding-top: 110px;
     margin-bottom: 40px;
@@ -129,7 +132,6 @@ body, header, main, nav, footer, section, aside, article {
 #centerzin {
     text-align: center;
 }
-
 
 /******************** grid column *******************/
 .clearfix::after,
@@ -175,6 +177,9 @@ body, header, main, nav, footer, section, aside, article {
     line-height: 1.20;
     padding-bottom: 22px;
 }
+
+/******************** end grid column *******************/
+/******************** end first section under home *******************/
 
 
 /******************** buttons ********************/
@@ -231,6 +236,8 @@ body, header, main, nav, footer, section, aside, article {
     border-color: hsl(0, 0%, 0%);
 }
 
+/******************** end buttons *******************/
+
 /******************** footer ********************/
 footer {
     background: hsl(60, 3.6%, 11%);
@@ -256,3 +263,5 @@ blockquote {
     -webkit-margin-start: 40px;
     -webkit-margin-end: 40px;
 }
+
+/******************** end footer *******************/
