@@ -147,75 +147,6 @@ body, header, main, nav, footer, section, aside, article {
     text-align: center;
 }
 
-/******************** demo box @home *******************/
-
-#demobox {
-    width: 100%;
-    height: 130%;
-    background-color: hsl(0, 0%, 100%);
-
-}
-
-.leftdemo {
-    display: block;
-    float: left;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    height: 650px;
-    width: 50%;
-    background-color: black;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 190px 30px;
-    background-image: url(https://ableton-production.imgix.net/tours/live/header-perform.jpg?auto=format&fm=jpg&fit=crop);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    text-align: left;
-    
-}
-
-.rightdemo {
-    display: block;
-    float: left;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    height: 650px;
-    width: 50%;
-    background-color: hsl(212, 14%, 51%);
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.listenbutton {
-    float: right;
-}
-
-.btnlstn {
-    display: inline-block;
-    border: solid 7px;
-    color: hsl(0, 0%, 13%);
-    border-color: hsl(0, 0%, 13%);
-    background-color: transparent;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.btnlstn:hover {
-    transition: all .3s ease;
-    color: hsl(212, 14%, 51%);
-    background-color: rgba(112,129,148, 0.1);
-    border-color: hsl(212, 14%, 51%);
-
-}
-
-.btnlstn:active {
-    color:  hsl(0, 0%, 13%);
-    background-color: hsl(211, 30%, 69%);
-    border-color: hsl(211, 30%, 69%);
-}
-
-
-
 /******************** grid column *******************/
 .clearfix::after,
 .grid__row::after {
@@ -334,7 +265,7 @@ body, header, main, nav, footer, section, aside, article {
 .btnlstn:hover {
     transition: all .3s ease;
     color: hsl(212, 14%, 51%);
-    background-color: rgba(112,129,148, 0.1);
+    background-color:transparent;
     border-color: hsl(212, 14%, 51%);
 
 }
