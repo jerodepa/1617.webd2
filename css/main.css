@@ -148,30 +148,6 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 /******************** grid column *******************/
-.clearfix::after,
-.grid__row::after {
-    content: ' ';
-    clear: both;
-    display: block;
-}
-.grid__row {
-    background-color: transparent;
-}
-
-.grid__column-4 {
-    display: block;
-    float: left;
-    padding: 40px;
-    margin: 0px;
-    text-align: center; 
-}
-
-.clear {
-    background: red;
-    clear: both;
-}
-
-.grid__column-4 { width: 33.33%; }
 
 .last {
     margin-bottom: 100px;
