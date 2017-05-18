@@ -5,7 +5,7 @@
     display: block;
 }
 .grid__row {
-    background-color: white;
+    background-color: transparent;
 }
 
 .grid__column-9,
@@ -23,7 +23,7 @@
      
 }
 .clear {
-    background: white;
+    background: transparent;
     clear: both;
 }
 
@@ -35,7 +35,7 @@
 .grid__column-8 { width: 66.6666667%;}
 .grid__column-9 { width: 75%;}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 .grid__column-9,
 .grid__column-4,
 .grid__column-8,
