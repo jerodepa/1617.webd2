@@ -153,9 +153,21 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 
+/************** approach ********/
+.approachcontainer {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(225, 100%, 85%)
+}
 
 
-
+#middletext {
+    text-align: center;
+    color: white;
+}
+.header {
+    padding-top: 150px;
+}
 
 
 
@@ -356,7 +368,7 @@ body, header, main, nav, footer, section, aside, article {
 /******************** footer ********************/
 footer {
     background: hsl(0, 0%, 13%);
-    padding: 40px 0;
+    padding-top: 30px;
     margin: 0;
     border: 0;
     font: inherit;
@@ -378,5 +390,22 @@ blockquote {
     -webkit-margin-start: 40px;
     -webkit-margin-end: 40px;
 }
+
+
+.ul {
+    list-style-type: none;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.whitefooter {
+    color: white;
+    font-size: 10px;
+}
+
 
 /******************** end footer *******************/
