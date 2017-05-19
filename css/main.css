@@ -255,6 +255,35 @@ body, header, main, nav, footer, section, aside, article {
     background-color: white;
 
 }
+/******************** end over ons 'team'********************/
+/******************** home demos'********************/
+.text-box-left {
+    position: absolute;
+}
+
+
+.box-right {
+    float: right;
+    padding-right: 0;
+    height: 630px;
+}
+
+.color-blue {
+    background-color: hsl(225, 100%, 85%);
+}
+
+.close__lineheight {
+    line-height: 1.1;
+    padding-bottom: 30px;
+}
+
+.buttonmusic {
+   margin-left: 50px;
+}
+
+.button-tag {
+    padding: 76px 0;
+}
 
 
 /******************** buttons ********************/

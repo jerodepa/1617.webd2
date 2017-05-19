@@ -27,10 +27,10 @@
 
 .grid__column-3 { width: 25%; }
 .grid__column-4 { width: 33.33%; }
-.grid__column-6 { width: 16.6666667%; }
+.grid__column-6 { width: 16.67%; }
 .grid__column-2 { width: 50%; }
 .grid__column-1 { width: 100%; }
-.grid__column-8 { width: 66.6666667%;}
+.grid__column-8 { width: 66.67%;}
 .grid__column-9 { width: 75%;}
 
 @media screen and (max-width: 800px) {
