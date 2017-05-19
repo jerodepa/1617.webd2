@@ -258,29 +258,11 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 
+.quote {
+    color: hsl(0, 0%, 13%);
+    background-color: white;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 /******************** buttons ********************/
@@ -374,21 +356,6 @@ footer {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-}
-
-blockquote {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    font-size: 100%;
-    vertical-align: baseline;
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 40px;
-    -webkit-margin-end: 40px;
 }
 
 

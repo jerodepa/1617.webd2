@@ -85,3 +85,8 @@
 .padding-topper {
     padding-top: 20px;
 }
+
+.padding-top-bottom {
+    padding-top: 320px;
+    padding-bottom: 320px;
+}
