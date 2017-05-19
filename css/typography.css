@@ -119,7 +119,14 @@ a.btnbig, a.btnlstn {
   letter-spacing: 0.5px;
 }
 
-
+a.btnlink {
+  font-family: 'Gotham', sans-serif;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 48px;
+  font-weight: bold;
+}
 
 p.sansserif {
   font-family: 'Gotham', sans-serif;

@@ -169,27 +169,6 @@ body, header, main, nav, footer, section, aside, article {
     padding-top: 150px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* first meet quote */
 .banner {
     float: right;
@@ -205,6 +184,19 @@ body, header, main, nav, footer, section, aside, article {
 .buttonleft {
     float: left;
     padding-top: 508px;
+}
+
+.approachintro {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.text-black {
+    color: hsl(0,0%, 13%);
+    padding-top: 10px;
 }
 /******************** end home ********************/
 
@@ -296,7 +288,7 @@ body, header, main, nav, footer, section, aside, article {
 /********** big button **********/
 .btnbig {
     display: inline-block;
-    border: solid 7px;
+    border: solid 5px;
     color: rgba(255, 255, 255, 0.8);
     border-color: rgba(255, 255, 255, 0.8);
     background-color: transparent;
@@ -345,6 +337,41 @@ body, header, main, nav, footer, section, aside, article {
     border-color: hsl(211, 30%, 69%);
 }
 
+.btnlink {
+    display: inline-block;
+    border: solid 7px;
+    color: hsl(0,0%, 13%);
+    border-color: hsl(0,0%, 13%);
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnlink:hover {
+    transition: all .3s ease;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 100%, 85%);
+    border-color: hsl(225, 100%, 85%);
+
+}
+
+.btnlink:active {
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(211, 30%, 69%);
+    border-color: hsl(211, 30%, 69%);
+}
+
+.footerbtn {
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+}
+
+.footerbtn:hover {
+    transition: all .3s ease;
+    color: hsl(225, 100%, 85%);
+    
+}
 /******************** end buttons *******************/
 
 /******************** footer ********************/
