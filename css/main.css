@@ -160,6 +160,12 @@ body, header, main, nav, footer, section, aside, article {
     background-color: hsl(225, 100%, 85%)
 }
 
+.approach_width {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #middletext {
     text-align: center;
@@ -167,6 +173,7 @@ body, header, main, nav, footer, section, aside, article {
 }
 .header {
     padding-top: 150px;
+    margin-bottom: 100px;
 }
 
 /* first meet quote */
@@ -188,15 +195,20 @@ body, header, main, nav, footer, section, aside, article {
 
 .approachintro {
     width: 80%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 300px;
     margin-bottom: 150px;
 }
 
 .text-black {
     color: hsl(0,0%, 13%);
     padding-top: 10px;
+}
+
+.margin-top {
+    margin-top: 100px;
 }
 /******************** end home ********************/
 
@@ -257,9 +269,6 @@ body, header, main, nav, footer, section, aside, article {
 }
 /******************** end over ons 'team'********************/
 /******************** home demos'********************/
-.text-box-left {
-    position: absolute;
-}
 
 
 .box-right {
@@ -268,8 +277,21 @@ body, header, main, nav, footer, section, aside, article {
     height: 630px;
 }
 
+
+.float-right {
+    float: right;
+}
+
 .color-blue {
     background-color: hsl(225, 100%, 85%);
+}
+
+.color-red {
+    background-color: hsl(12, 100%, 90%);
+}
+
+.color-green {
+    background-color: hsl(128, 100%, 86%);
 }
 
 .close__lineheight {
@@ -277,13 +299,23 @@ body, header, main, nav, footer, section, aside, article {
     padding-bottom: 30px;
 }
 
-.buttonmusic {
-   margin-left: 50px;
-}
-
 .button-tag {
     padding: 76px 0;
 }
+
+.portfoliointro {
+    height: 120%;
+}
+
+.getstartedintro {
+    height: 170%;
+}
+
+.box-left {
+    margin-top: 250px;
+    height: 630px;
+}
+
 
 
 /******************** buttons ********************/
@@ -401,6 +433,7 @@ body, header, main, nav, footer, section, aside, article {
     color: hsl(225, 100%, 85%);
     
 }
+
 /******************** end buttons *******************/
 
 /******************** footer ********************/

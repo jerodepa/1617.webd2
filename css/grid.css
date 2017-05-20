@@ -14,7 +14,9 @@
 .grid__column-6,
 .grid__column-3,
 .grid__column-2,
-.grid__column-1 {
+.grid__column-1,
+.grid__column-40,
+.grid__column-60 {
     display: block;
     float: left;
     padding: 40px;
@@ -32,6 +34,8 @@
 .grid__column-1 { width: 100%; }
 .grid__column-8 { width: 66.67%;}
 .grid__column-9 { width: 75%;}
+.grid__column-60 { width: 60%;}
+.grid__column-40 { width: 40%;}
 
 @media screen and (max-width: 800px) {
 .grid__column-9,
@@ -40,7 +44,9 @@
 .grid__column-6,
 .grid__column-3,
 .grid__column-2,
-.grid__column-1 {
+.grid__column-1,
+.grid__column-40,
+.grid__column-60 {
     display: block;
     float: none;
     padding: 20px;
