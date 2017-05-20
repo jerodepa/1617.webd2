@@ -307,17 +307,23 @@ body, header, main, nav, footer, section, aside, article {
     margin-bottom: 100px;
 }
 
+.description {
+    height: 110%;
+}
+
 /******************** end grid column *******************/
 /******************** end first section under home *******************/
 
 /******************** over ons 'team'********************/
 
 .team {
+    height: 110%;
     background-color: hsl(128, 100%, 86%);
 }
 
 
 .quote {
+    height: 110%;
     color: hsl(0, 0%, 13%);
     background-color: white;
 
