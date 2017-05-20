@@ -34,13 +34,16 @@ body, header, main, nav, footer, section, aside, article {
     padding-top: 2px;
 }
 /******************** header/navigation ********************/
+ header {
+     background-color: hsl(0, 0%, 13%);
+ }
+
 #topnav {
     z-index: 599;
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
-    background-color: transparent;
     border: 0;
     transition: all .5s ease;
     min-height: 62px;
@@ -91,11 +94,9 @@ body, header, main, nav, footer, section, aside, article {
     display: block;
 }
 .navigation__item {
-    background: transparent;
     float: left;
 }
 .navigation__item a {
-    background: transparent;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     padding: 8px 15px;
@@ -114,6 +115,12 @@ body, header, main, nav, footer, section, aside, article {
 #logoa {
     padding-left: 0;
 }
+
+.navigation-big {
+    padding-top: 15%;
+}
+
+
 /******************** end navigation ********************/
 
 /******************** home ********************/
@@ -150,7 +157,7 @@ body, header, main, nav, footer, section, aside, article {
     /*background-image: url(https://ableton-production.imgix.net/tours/live/header-new-in-9-5.jpg?auto=format&fm=jpg&fit=crop)*/
     /*background-image: url(https://ableton-production.imgix.net/tours/live/learn/header.jpg?auto=format&fm=jpg&fit=crop)*/
     /*background-image: url(https://ableton-production.imgix.net/tours/live/header-finish.jpg?auto=format&fm=jpg&fit=crop)*/
-
+    /*https://ableton-production.imgix.net/tours/live/photo-finish.jpg?auto=format&fm=jpg&fit=crop*/
 }
 
 .contactcontainer {
@@ -163,7 +170,16 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 
-/************** approach ********/
+.portfoliocontainer {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/upgrade/header.jpg?auto=format&fm=jpg&fit=crop);
+
+}
+
 .approachcontainer {
     width: 100%;
     height: 100%;
@@ -317,6 +333,7 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 
+
 .float-right {
     float: right;
 }
@@ -394,6 +411,10 @@ body, header, main, nav, footer, section, aside, article {
     border: solid 8px hsl(0, 0%, 100%);
     display: inline-block;
     padding: 5px 90px;
+}
+
+.categorie-box {
+    height: 100%;
 }
 
 

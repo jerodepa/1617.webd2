@@ -80,6 +80,9 @@
 .padding-bottom-bottom {
     padding-bottom: 10px;
 }
+.padding-bottom-button {
+    padding-bottom: 30px;
+}
 
 .icon {
     color: white;
@@ -99,4 +102,15 @@
 
 .padding-top-bottom-form {
     padding: 10px 0;
+}
+
+.padding-zero {
+    padding: 0;
+}
+
+.padding-only-top {
+    padding-top: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
 }
