@@ -153,6 +153,16 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 
+.contactcontainer {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/tours/live/header-at-a-glance.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=871&ixjsv=1.1.3&q=50&w=1199);
+
+}
+
 /************** approach ********/
 .approachcontainer {
     width: 100%;
@@ -206,10 +216,39 @@ body, header, main, nav, footer, section, aside, article {
     color: hsl(0,0%, 13%);
     padding-top: 10px;
 }
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+.margin-less-top {
+    margin-top: 30px;
+}
 
 .margin-top {
     margin-top: 100px;
 }
+
+.margin-topper {
+    margin-top: 250px;
+}
+
+.margin-bottom {
+    margin-bottom: 200px;
+}
+
+.message-container {
+    position: absolute;
+    width: 60%;
+    background-color: hsl(0, 0%, 13%);
+    height: 60%;
+    margin-left: 18%;
+    margin-top: 150px;
+}
+
+.form-container {
+    margin: 25px 0;
+}
+
 /******************** end home ********************/
 
 
@@ -282,6 +321,27 @@ body, header, main, nav, footer, section, aside, article {
     float: right;
 }
 
+.img-right-sampling {
+    height: 630px;
+    background-image: url(https://ableton-production.imgix.net/tours/live/header-extend.jpg?auto=format&fm=jpg&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-left-recording {
+    height: 630px;
+    background-image: url(https://ableton-production.imgix.net/tours/live/photo-capture.jpg?auto=format&fm=jpg&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-right-mastering {
+    height: 630px;
+    background-image: url(https://ableton-production.imgix.net/tours/live/header-new-in-9-5.jpg?auto=format&fm=jpg&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .color-blue {
     background-color: hsl(225, 100%, 85%);
 }
@@ -314,6 +374,10 @@ body, header, main, nav, footer, section, aside, article {
 .box-left {
     margin-top: 250px;
     height: 630px;
+}
+
+.sampling-box {
+    height: 100%;
 }
 
 
@@ -465,3 +529,49 @@ li {
 
 
 /******************** end footer *******************/
+
+
+/******************** form *******************/
+input {
+    width: 100%;
+    padding: 12px;
+    border: solid 2px hsl(0, 0%, 100%);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Gotham';
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    border-color: hsl(225, 100%, 85%);
+    background-color: hsl(225, 100%, 85%);
+}
+
+textarea {
+    height: 114px;
+    padding: 12px;
+    width: 100%;
+    border: solid 2px hsl(0, 0%, 100%);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Gotham';
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+}
+
+.form__submit {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__submit:hover {
+    color: hsl(0, 0%, 13%);
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 100%);
+    transition: all .3s ease;
+}
+/******************** end form*******************/

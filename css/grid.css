@@ -96,3 +96,7 @@
     padding-top: 320px;
     padding-bottom: 320px;
 }
+
+.padding-top-bottom-form {
+    padding: 10px 0;
+}
