@@ -380,6 +380,21 @@ body, header, main, nav, footer, section, aside, article {
     height: 100%;
 }
 
+.telephone {
+    height: 100%;
+}
+
+.call-banner {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.tel-number {
+    
+    border: solid 8px hsl(0, 0%, 100%);
+    display: inline-block;
+    padding: 5px 90px;
+}
 
 
 /******************** buttons ********************/
