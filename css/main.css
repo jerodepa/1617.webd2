@@ -130,16 +130,7 @@ body, header, main, nav, footer, section, aside, article {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(https://ableton-production.imgix.net/tours/live/header-create.jpg?auto=format&fm=jpg&fit=crop);
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-at-a-glance.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=871&ixjsv=1.1.3&q=50&w=1199);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-extend.jpg?auto=format&fm=jpg&fit=crop);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-perform.jpg?auto=format&fm=jpg&fit=crop);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-feature-comparison.jpg?auto=format&fm=jpg&fit=crop);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/photo-capture.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-new-in-9-5.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/learn/header.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-finish.jpg?auto=format&fm=jpg&fit=crop)*/
-
+    background-image: url('../assets/images/imgheaderhome.jpg');
 }
 
 .aboutcontainer {
@@ -148,16 +139,8 @@ body, header, main, nav, footer, section, aside, article {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-create.jpg?auto=format&fm=jpg&fit=crop);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-at-a-glance.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=871&ixjsv=1.1.3&q=50&w=1199);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-extend.jpg?auto=format&fm=jpg&fit=crop);*/
-    background-image: url(https://ableton-production.imgix.net/tours/live/header-perform.jpg?auto=format&fm=jpg&fit=crop);
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-feature-comparison.jpg?auto=format&fm=jpg&fit=crop);*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/photo-capture.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-new-in-9-5.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/learn/header.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*background-image: url(https://ableton-production.imgix.net/tours/live/header-finish.jpg?auto=format&fm=jpg&fit=crop)*/
-    /*https://ableton-production.imgix.net/tours/live/photo-finish.jpg?auto=format&fm=jpg&fit=crop*/
+    background-image: url('../assets/images/imgheaderaboutus.jpg');
+    
 }
 
 .contactcontainer {
@@ -166,7 +149,7 @@ body, header, main, nav, footer, section, aside, article {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(https://ableton-production.imgix.net/tours/live/header-at-a-glance.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=871&ixjsv=1.1.3&q=50&w=1199);
+    background-image: url('../assets/images/imgheadercontact.jpg');
 
 }
 
@@ -176,7 +159,7 @@ body, header, main, nav, footer, section, aside, article {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(https://ableton-production.imgix.net/upgrade/header.jpg?auto=format&fm=jpg&fit=crop);
+    background-image: url('../assets/images/imgheaderportfolio.jpg');
 
 }
 
@@ -346,21 +329,21 @@ body, header, main, nav, footer, section, aside, article {
 
 .img-right-sampling {
     height: 630px;
-    background-image: url(https://ableton-production.imgix.net/tours/live/header-extend.jpg?auto=format&fm=jpg&fit=crop);
+    background-image: url('../assets/images/imgsample.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-left-recording {
     height: 630px;
-    background-image: url(https://ableton-production.imgix.net/tours/live/photo-capture.jpg?auto=format&fm=jpg&fit=crop);
+    background-image: url('../assets/images/imgrecording.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-right-mastering {
     height: 630px;
-    background-image: url(https://ableton-production.imgix.net/tours/live/header-new-in-9-5.jpg?auto=format&fm=jpg&fit=crop);
+    background-image: url('../assets/images/imgmastering.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
