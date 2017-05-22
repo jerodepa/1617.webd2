@@ -104,6 +104,11 @@
     padding: 10px 0;
 }
 
+.padding-top-bottom-comment {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 .padding-zero {
     padding: 0;
 }
