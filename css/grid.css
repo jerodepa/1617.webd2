@@ -56,8 +56,6 @@
 }
 }
 
-
-/****** specials footer ******/
 .text-center {
     text-align: center;
 }
@@ -118,4 +116,35 @@
     padding-left: 0;
     padding-bottom: 0;
     padding-right: 0;
+}
+
+.last {
+    margin-bottom: 100px;
+}
+
+.number {
+    margin-top: 50px;
+}
+
+.tekstnumber {
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+.speciallineheight {
+    line-height: 1.20;
+    padding-bottom: 22px;
+}
+.specialpadding {
+    line-height: 1.20;
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.description {
+    height: 110%;
 }

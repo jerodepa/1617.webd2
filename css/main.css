@@ -260,40 +260,6 @@ body, header, main, nav, footer, section, aside, article {
     text-align: center;
 }
 
-/******************** grid column *******************/
-
-.last {
-    margin-bottom: 100px;
-}
-
-.number {
-    margin-top: 50px;
-}
-
-.tekstnumber {
-    margin-top: 30px;
-    margin-bottom: 100px;
-
-}
-
-.speciallineheight {
-    line-height: 1.20;
-    padding-bottom: 22px;
-}
-.specialpadding {
-    line-height: 1.20;
-}
-
-.name {
-    margin-top: 20px;
-    margin-bottom: 100px;
-}
-
-.description {
-    height: 110%;
-}
-
-/******************** end grid column *******************/
 /******************** end first section under home *******************/
 
 /******************** over ons 'team'********************/
@@ -407,34 +373,7 @@ body, header, main, nav, footer, section, aside, article {
 
 
 /******************** buttons ********************/
-/********** small button **********/
-.btnsmall {
-    display: inline-block;
-    border: solid 1.5px;
-    color: hsl(0, 0%, 0%);
-    border-color: hsl(0, 0%, 0%);
-    background-color: transparent;
-    padding: 0 16px;
-    text-decoration: none;
-    height: 37px;
-    text-align: center;
 
-}
-
-.btnsmall:hover {  
-    transition: all .3s ease;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 0%);
-
-}
-
-.btnsmall:active {
-    color:  hsl(0, 0%, 100%);
-    background-color: hsl(196, 83%, 40%);
-    border-color: hsl(0, 0%, 0%);
-}
-
-/********** big button **********/
 .btnbig {
     display: inline-block;
     border: solid 5px;
@@ -524,6 +463,11 @@ body, header, main, nav, footer, section, aside, article {
 
 /******************** end buttons *******************/
 
+
+
+
+
+
 /******************** footer ********************/
 footer {
     background: hsl(0, 0%, 13%);
@@ -553,6 +497,7 @@ li {
 
 
 /******************** end footer *******************/
+
 
 
 /******************** form *******************/
