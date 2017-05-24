@@ -24,27 +24,26 @@ window.onscroll = function () {
 };
 // play audio
 
-var audiobtn = document.getElementById('knop');
+var audioBtn = document.getElementById('knop1');
+var audioBtnTwo = document.getElementById('knop2');
+var audioBtnThree = document.getElementById('knop2');
 
 
-audiobtn.onclick = function() {
+
+audioBtn.onclick = function() {
   audioFlumePause();
 } 
 
 function audioFlumePause() {
     var flumeSong = new Audio('assets/audio/flumeHyperreal.mp3');
-    var isPause = true;
+    var isPlay = true;
+    
 
-    if(isPause = true) {
+    if(isPlay = true) {
         flumeSong.play();
-        audiobtn.onclick = function() {
+        audioBtn.onclick = function() {
             flumeSong.pause();
-
-            audioFlumePlay()
         }
-    }
-    else {
-        flumeSong.pause();
     }
 }
 
