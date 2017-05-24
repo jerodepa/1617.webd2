@@ -34,7 +34,7 @@ body, header, main, nav, footer, section, aside, article {
 }
 /******************** header/navigation ********************/
 
-.topnav {
+#topnav {
     z-index: 599;
     position: fixed;
     right: 0;
@@ -43,10 +43,26 @@ body, header, main, nav, footer, section, aside, article {
     border: 0;
     transition: all .5s ease;
     min-height: 62px;
-    border-bottom: 0.25px solid transparent;
-    background-color: hsl(0, 0%, 13%);
-
 }
+
+.nav-colored { 
+    background-color: hsl(0, 0%, 13%); 
+    }
+.nav-transparent { 
+    background-color:transparent;
+    }
+
+/*.background-layer {
+    background-color: hsl(0, 0%, 13%);
+    position: fixed;
+    min-height: 71px;
+    right: 0;
+    left: 0;
+    top: 0;
+    border: 0;
+    z-index: -1;
+    display: none;
+}*/
 
 
 .logo {
@@ -208,6 +224,7 @@ body, header, main, nav, footer, section, aside, article {
 
 .button-tag {
     padding: 76px 0;
+    float: right;
 }
 
 /********************  end css index ********************/
@@ -646,3 +663,27 @@ li {
 }
 
 
+/* grootte play button */
+
+.fa-play {
+    font-size: 35px;
+}
+/* big audio button */
+
+.audiobtn__big {
+    width: 150px;
+    height: 100px;
+    margin: 40px;
+    background-color: hsl(0,0%, 13%);
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.middle_span {
+    width: 27.5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+
+}

@@ -57,7 +57,8 @@
 
 
   <body>
-    <header class="topnav">
+    <!-- begin navigation-->
+    <header id="topnav">
       <div  class="container">
         <!-- logo -->
         <div class="logo">
@@ -92,6 +93,7 @@
             </ul>
           </nav>
         </div>
+      </div>
       </div>
     </header>
     <!-- End navigation -->
@@ -143,29 +145,33 @@
           </div>
           <div class="grid__column-60 box-right color-blue">
             <div class="grid__row">
-              <div class="grid__column-4">
-              <img class="middle-align" src="assets/icons/playbutton.png" width="150px">
+              <div id="knop" class="audiobtn__big">
+                <div class="middle_span">
+                  <span class="fa fa-play text-white"></span>
+                </div>
               </div>
-              <div class="grid__column-8 button-tag">
-                <h4>MURA MASA REMIX </h4>
-              </div>
-            </div>
-            <div class="grid__row buttonmusic">
-              <div class="grid__column-4">
-                <img class="middle-align" src="assets/icons/playbutton.png" width="150px">
-              </div>
-              <div class="grid__column-8 button-tag">
-                <h4>VOICE-OVER SPOTIFY CLIP </h4>
+              <div class="grid__column-60 button-tag">
+                <h4>Flume - Hyperreal feat. Kučka</h4>
               </div>
             </div>
-            <div class="grid__row buttonmusic">
-              <div class="grid__column-4">
-                <img class="middle-align" src="assets/icons/playbutton.png" width="150px">
+            <div class="grid__row">
+              <div id="audiobtn__big">
+                <span></span>
+                <audio id="audioFlume" src="assets/audio/FlumeHyperreal.mp3"></audio>
               </div>
-              <div class="grid__column-8 button-tag">
-                <h4>WOOD SAMPLE PACK </h4>
+              <div class="grid__column-60 button-tag">
+                <h4>Flume - Hyperreal feat. Kučka</h4>
               </div>
-          </div>
+            </div>
+            <div class="grid__row">
+              <div class="audiobtn__big" onclick="play()">
+                <span></span>
+                <audio id="audioFlume" src="assets/audio/FlumeHyperreal.mp3"></audio>
+              </div>
+              <div class="grid__column-60 button-tag">
+                <h4>Flume - Hyperreal feat. Kučka</h4>
+              </div>
+            </div>
         </div>
       </div>
       <div class="grid-row">
