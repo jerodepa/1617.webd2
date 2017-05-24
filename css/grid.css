@@ -56,11 +56,18 @@
 }
 }
 
+
+/************ text align **********/
 .text-center {
     text-align: center;
 }
 .text-right {
     text-align: right;
+}
+
+/*********** padding ***********/
+.padding-zero {
+    padding: 0;
 }
 
 .padding-top-zero {
@@ -69,6 +76,10 @@
 
 .padding-left-zero {
     padding-left: 0
+}
+
+.padding-right-zero {
+    padding-right: 0;
 }
 
 .padding-bottom-zero{
@@ -82,9 +93,6 @@
     padding-bottom: 30px;
 }
 
-.icon {
-    color: white;
-}
 .padding-top {
     padding-top: 20px;
 }
@@ -105,10 +113,6 @@
 .padding-top-bottom-comment {
     padding-top: 10px;
     padding-bottom: 5px;
-}
-
-.padding-zero {
-    padding: 0;
 }
 
 .padding-only-top {
@@ -147,4 +151,8 @@
 
 .description {
     height: 110%;
+}
+
+.icon {
+    color: white;
 }

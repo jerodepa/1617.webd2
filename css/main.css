@@ -30,13 +30,13 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 /******************** logo ********************/
-#logo {
+.logo__img {
     width: 200px;
     padding-top: 2px;
 }
 /******************** header/navigation ********************/
 
-#topnav {
+.topnav {
     z-index: 599;
     position: fixed;
     right: 0;
@@ -50,7 +50,8 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 
-#topnav .logo {
+
+.logo {
     float: left;
     padding-top: 14px;
     padding-bottom: 5px;
@@ -62,12 +63,12 @@ body, header, main, nav, footer, section, aside, article {
 .last__item {
     padding-right: 20px;
 }
-
-#topnav #navigation {
+ 
+.navigation {
     display: block!important;
 }
 
-#topnav .navigation-menu {
+.navigation-menu {
     float: right;
     list-style: none;
     margin: 0;
@@ -75,7 +76,7 @@ body, header, main, nav, footer, section, aside, article {
     position: relative;
 }
 
-#topnav .navigation-menu > li > a {
+.navigation-menu > li > a {
     padding-top: 32px;
     padding-bottom: 25px;
     min-height: 62px;
@@ -111,10 +112,6 @@ body, header, main, nav, footer, section, aside, article {
     color: hsl(0, 0%, 30%);
 }
 
-#logoa {
-    padding-left: 0;
-}
-
 .navigation-big {
     padding-top: 15%;
 }
@@ -122,8 +119,8 @@ body, header, main, nav, footer, section, aside, article {
 
 /******************** end navigation ********************/
 
-/******************** home ********************/
-.homecontainer{
+/******************** containers********************/
+.home-container{
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -132,7 +129,7 @@ body, header, main, nav, footer, section, aside, article {
     background-image: url('../assets/images/imgheaderhome.jpg');
 }
 
-.aboutcontainer {
+.about-container {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -142,7 +139,7 @@ body, header, main, nav, footer, section, aside, article {
     
 }
 
-.contactcontainer {
+.contact-container {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -152,7 +149,7 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 
-.portfoliocontainer {
+.portfolio-container {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -162,11 +159,44 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 
-.approachcontainer {
+.approach-container {
     width: 100%;
     height: 100%;
     background-color: hsl(225, 100%, 85%)
 }
+/******************** end containers ********************/
+
+/******************** css index ********************/
+.buttonleft {
+    float: left;
+    padding-top: 511px;
+}
+
+.approach-intro {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+
+.portfolio-intro {
+    height: 120%;
+}
+
+.banner {
+    float: right;
+    text-align: right;
+    padding-top: 250px;
+    
+}
+
+.getstarted-intro {
+    height: 170%;
+}
+
+/********************  end css index ********************/
 
 .approach_width {
     width: 75%;
@@ -175,39 +205,13 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 
-#middletext {
+.middletext {
     text-align: center;
     color: white;
 }
 .header {
     padding-top: 150px;
     margin-bottom: 100px;
-}
-
-/* first meet quote */
-.banner {
-    float: right;
-    text-align: right;
-    padding-top: 250px;
-    
-}
-
-.banner .container {
-    margin-bottom: 5vh;
-}
-
-.buttonleft {
-    float: left;
-    padding-top: 508px;
-}
-
-.approachintro {
-    width: 80%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 300px;
-    margin-bottom: 150px;
 }
 
 .text-black {
@@ -277,14 +281,8 @@ body, header, main, nav, footer, section, aside, article {
 
 }
 /******************** end over ons 'team'********************/
-/******************** home demos'********************/
+/******************** home demos********************/
 
-
-.box-right {
-    float: right;
-    padding-right: 0;
-    height: 630px;
-}
 
 
 
@@ -313,17 +311,6 @@ body, header, main, nav, footer, section, aside, article {
     background-size: cover;
 }
 
-.color-blue {
-    background-color: hsl(225, 100%, 85%);
-}
-
-.color-red {
-    background-color: hsl(12, 100%, 90%);
-}
-
-.color-green {
-    background-color: hsl(128, 100%, 86%);
-}
 
 .close__lineheight {
     line-height: 1.1;
@@ -332,19 +319,6 @@ body, header, main, nav, footer, section, aside, article {
 
 .button-tag {
     padding: 76px 0;
-}
-
-.portfoliointro {
-    height: 120%;
-}
-
-.getstartedintro {
-    height: 170%;
-}
-
-.box-left {
-    margin-top: 250px;
-    height: 630px;
 }
 
 .sampling-box {
@@ -370,6 +344,35 @@ body, header, main, nav, footer, section, aside, article {
 .categorie-box {
     height: 100%;
 }
+
+
+/******************** float boxes ********************/
+.box-left {
+    margin-top: 250px;
+    height: 630px;
+}
+
+.box-right {
+    float: right;
+    padding-right: 0;
+    height: 630px;
+}
+
+/******************** end float boxes ********************/
+
+/******************** color boxes ********************/
+.color-blue {
+    background-color: hsl(225, 100%, 85%);
+}
+
+.color-red {
+    background-color: hsl(12, 100%, 90%);
+}
+
+.color-green {
+    background-color: hsl(128, 100%, 86%);
+}
+/******************** end color boxes ********************/
 
 
 /******************** buttons ********************/
