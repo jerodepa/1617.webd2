@@ -16,8 +16,6 @@ body, header, main, nav, footer, section, aside, article {
 
 .container {
     width: 95%;
-    /*padding-right: 15px;
-    padding-left: 15px;*/
     margin-right: auto;
     margin-left: auto;
 }
@@ -447,6 +445,14 @@ textarea {
 }
 /******************** end text colors ********************/
 
+/******************** text align ********************/
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+/******************** end text colors ********************/
 
 /******************** buttons ********************/
 

@@ -56,15 +56,6 @@
 }
 }
 
-
-/************ text align **********/
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-
 /*********** padding ***********/
 .padding-zero {
     padding: 0;
@@ -121,6 +112,7 @@
     padding-bottom: 0;
     padding-right: 0;
 }
+/******* end padding *******/
 
 .last {
     margin-bottom: 100px;
