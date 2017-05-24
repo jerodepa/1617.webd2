@@ -68,6 +68,12 @@ h6 {
 
 }
 
+p {
+  font-family: 'Gotham', sans-serif;
+  font-size: 1.4rem;
+  color: hsl(60, 3.6%, 11%);
+}
+
 a {
   color: hsl(60, 3.6%, 11%);
   text-transform: uppercase;
@@ -129,12 +135,6 @@ a.btnlink {
   letter-spacing: 0.5px;
   line-height: 48px;
   font-weight: bold;
-}
-
-p.sansserif {
-  font-family: 'Gotham', sans-serif;
-  font-size: 1.4rem;
-  color: hsl(60, 3.6%, 11%);
 }
 
 span {

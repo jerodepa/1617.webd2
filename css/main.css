@@ -185,18 +185,21 @@ body, header, main, nav, footer, section, aside, article {
     height: 120%;
 }
 
-.banner {
-    float: right;
-    text-align: right;
-    padding-top: 250px;
-    
-}
-
 .getstarted-intro {
     height: 170%;
 }
 
+.button-tag {
+    padding: 76px 0;
+}
+
 /********************  end css index ********************/
+
+/********************  css our approach ********************/
+.header {
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
 
 .approach_width {
     width: 75%;
@@ -204,90 +207,13 @@ body, header, main, nav, footer, section, aside, article {
     margin-right: auto;
 }
 
-
 .middletext {
     text-align: center;
     color: white;
 }
-.header {
-    padding-top: 150px;
-    margin-bottom: 100px;
-}
 
-.text-black {
-    color: hsl(0,0%, 13%);
-    padding-top: 10px;
-}
-.text-white {
-    color: hsl(0, 0%, 100%);
-}
-
-.margin-less-top {
-    margin-top: 30px;
-}
-
-.margin-top {
-    margin-top: 100px;
-}
-
-.margin-topper {
-    margin-top: 250px;
-}
-
-.margin-bottom {
-    margin-bottom: 200px;
-}
-
-.message-container {
-    position: absolute;
-    width: 60%;
-    background-color: hsl(0, 0%, 13%);
-    height: 60%;
-    margin-left: 18%;
-    margin-top: 150px;
-}
-
-.form-container {
-    margin: 25px 0;
-}
-
-/******************** end home ********************/
-
-
-/************************************************************************overons ************/
-/******************** titel wat maakt ons beter *******************/
-.centerzin {
-    padding-top: 110px;
-    margin-bottom: 40px;
-}
-#centerzin {
-    text-align: center;
-}
-
-/******************** end first section under home *******************/
-
-/******************** over ons 'team'********************/
-
-.team {
-    height: 110%;
-    background-color: hsl(128, 100%, 86%);
-}
-
-
-.quote {
-    height: 110%;
-    color: hsl(0, 0%, 13%);
-    background-color: white;
-
-}
-/******************** end over ons 'team'********************/
-/******************** home demos********************/
-
-
-
-
-.float-right {
-    float: right;
+.sampling-box {
+    height: 100%;
 }
 
 .img-right-sampling {
@@ -311,18 +237,66 @@ body, header, main, nav, footer, section, aside, article {
     background-size: cover;
 }
 
+/********************  end css our approach ********************/
 
-.close__lineheight {
-    line-height: 1.1;
-    padding-bottom: 30px;
-}
+/********************  css portfolio ********************/
 
-.button-tag {
-    padding: 76px 0;
-}
-
-.sampling-box {
+.categorie-box {
     height: 100%;
+}
+
+/********************  end css portfolio ********************/
+
+/********************  css about us ********************/
+.description {
+    height: 110%;
+}
+
+.number {
+    margin-top: 50px;
+}
+
+.tekstnumber {
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+.specialpadding {
+    line-height: 1.20;
+}
+
+.centerzin {
+    padding-top: 110px;
+    margin-bottom: 40px;
+}
+
+.team {
+    height: 110%;
+    background-color: hsl(128, 100%, 86%);
+}
+
+
+.quote {
+    height: 110%;
+    color: hsl(0, 0%, 13%);
+    background-color: white;
+
+}
+/********************  end css about us ********************/
+
+/********************  css contact ********************/
+.message-container {
+    position: absolute;
+    width: 60%;
+    background-color: hsl(0, 0%, 13%);
+    height: 60%;
+    margin-left: 18%;
+    margin-top: 150px;
+}
+
+.form-container {
+    margin: 25px 0;
 }
 
 .telephone {
@@ -335,15 +309,100 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 .tel-number {
-    
     border: solid 8px hsl(0, 0%, 100%);
     display: inline-block;
     padding: 5px 90px;
 }
 
-.categorie-box {
-    height: 100%;
+/* form */
+input {
+    width: 100%;
+    padding: 12px;
+    border: solid 2px hsl(0, 0%, 100%);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Gotham';
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    outline: none;
 }
+
+input:focus {
+    border-color: hsl(225, 100%, 85%);
+    background-color: hsl(225, 100%, 85%);
+}
+
+textarea {
+    height: 114px;
+    padding: 12px;
+    width: 100%;
+    border: solid 2px hsl(0, 0%, 100%);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Gotham';
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+}
+
+.form__submit {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__submit:hover {
+    color: hsl(0, 0%, 13%);
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 100%);
+    transition: all .3s ease;
+}
+/* end form */
+/* google maps */
+#divMap {
+    height: 70%;
+    left:0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /*background: url(https://ableton-production.imgix.net/tours/live/header-extend.jpg?auto=format&fm=jpg&fit=crop) no-repeat center center;*/
+    background-size: cover;
+
+    z-index:0;
+}
+/* end google maps */
+/********************  end css contact ********************/
+
+.margin-less-top {
+    margin-top: 30px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.margin-topper {
+    margin-top: 250px;
+}
+
+.margin-bottom {
+    margin-bottom: 200px;
+}
+
+
+.banner {
+    float: right;
+    text-align: right;
+    padding-top: 250px;
+    
+}
+
+.close__lineheight {
+    line-height: 1.1;
+    padding-bottom: 30px;
+}
+
+
 
 
 /******************** float boxes ********************/
@@ -358,6 +417,9 @@ body, header, main, nav, footer, section, aside, article {
     height: 630px;
 }
 
+.float-right {
+    float: right;
+}
 /******************** end float boxes ********************/
 
 /******************** color boxes ********************/
@@ -373,6 +435,17 @@ body, header, main, nav, footer, section, aside, article {
     background-color: hsl(128, 100%, 86%);
 }
 /******************** end color boxes ********************/
+
+/******************** text colors ********************/
+.text-black {
+    color: hsl(0,0%, 13%);
+    padding-top: 10px;
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+/******************** end text colors ********************/
 
 
 /******************** buttons ********************/
@@ -466,11 +539,6 @@ body, header, main, nav, footer, section, aside, article {
 
 /******************** end buttons *******************/
 
-
-
-
-
-
 /******************** footer ********************/
 footer {
     background: hsl(0, 0%, 13%);
@@ -497,67 +565,4 @@ li {
     color: white;
     font-size: 10px;
 }
-
-
 /******************** end footer *******************/
-
-
-
-/******************** form *******************/
-input {
-    width: 100%;
-    padding: 12px;
-    border: solid 2px hsl(0, 0%, 100%);
-    background-color: transparent;
-    font-size: 16px;
-    font-family: 'Gotham';
-    color: hsl(0, 0%, 100%);
-    box-sizing: border-box;
-    outline: none;
-}
-
-input:focus {
-    border-color: hsl(225, 100%, 85%);
-    background-color: hsl(225, 100%, 85%);
-}
-
-textarea {
-    height: 114px;
-    padding: 12px;
-    width: 100%;
-    border: solid 2px hsl(0, 0%, 100%);
-    background-color: transparent;
-    font-size: 16px;
-    font-family: 'Gotham';
-    color: hsl(0, 0%, 100%);
-    box-sizing: border-box;
-    outline: none;
-    resize: none;
-}
-
-.form__submit {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.form__submit:hover {
-    color: hsl(0, 0%, 13%);
-    background-color: hsl(0, 0%, 100%);
-    border-color: hsl(0, 0%, 100%);
-    transition: all .3s ease;
-}
-/******************** end form *******************/
-
-/******************** google maps *******************/
-#divMap {
-    height: 70%;
-    left:0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    /*background: url(https://ableton-production.imgix.net/tours/live/header-extend.jpg?auto=format&fm=jpg&fit=crop) no-repeat center center;*/
-    background-size: cover;
-
-    z-index:0;
-}
-/******************** end google maps *******************/
