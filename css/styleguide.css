@@ -1,10 +1,15 @@
 * {
   box-sizing: border-box;
-  background-color: hsl(12, 100%,85%);
+}
+
+body {
+  background-color: hsl(12, 100%, 90%);
 }
 
 .intro {
-  margin: auto 50px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 0;
 }
 
@@ -40,4 +45,97 @@ h3.styleguide {
 footer.styleguidefooter {
   background-color: transparent;
   margin: auto 50px;
+}
+
+.border {
+  border: solid hsl(0,0%,13%) 2px;
+  padding: 10px;
+}
+
+.home-afb {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../assets/images/imgheaderhome.jpg');
+  height: 303px;
+}
+
+.about-afb {
+  background-image: url('../assets/images/imgheaderaboutus.jpg');
+  height: 303px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.contact-afb {
+  background-image: url('../assets/images/imgheadercontact.jpg');
+  height: 303px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.portfolio-afb {
+  background-image: url('../assets/images/imgheaderportfolio.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.jeroend-afb {
+  background-image: url('../assets/images/img_jeroen_depauw.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mingh-afb {
+  background-image: url('../assets/images/img_minghao_li.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.jeroenb-afb {
+  background-image: url('../assets/images/img_jeroen_bernaerts.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sample-afb {
+  background-image: url('../assets/images/imgsample.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.record-afb {
+  background-image: url('../assets/images/imgrecording.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.master-afb {
+  background-image: url('../assets/images/imgmastering.jpg');
+  height: 303px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.hoogte {
+  margin-bottom: 200px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
 }

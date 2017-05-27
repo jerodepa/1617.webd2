@@ -327,16 +327,16 @@ body, header, main, nav, footer, section, aside, article {
 
 /********************  css contact ********************/
 .message-container {
-    position: absolute;
     width: 60%;
-    background-color: hsl(0, 0%, 13%);
     height: 451px;
     margin-left: 18%;
-    margin-top: 150px;
+    padding-top: 150px;
 }
 
 .form-container {
     margin: 25px 0;
+    background-color: hsl(0, 0%, 13%);
+    padding-bottom: 50px;
 }
 
 .telephone {
@@ -473,6 +473,14 @@ textarea {
 
 .color-green {
     background-color: hsl(128, 100%, 86%);
+}
+
+.color-black {
+  background-color: hsl(0,0%,13%);
+}
+
+.color-white {
+  background-color: hsl(0, 0%, 100%);
 }
 /******************** end color boxes ********************/
 
