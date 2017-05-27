@@ -128,7 +128,8 @@ body, header, main, nav, footer, section, aside, article {
 .nav__grid__column-5 { 
     display: none; 
     width: 100%; 
-    transition: 0.3s; 
+    transition: 0.3s;
+    background-color: hsl(0, 0%, 13%); 
     } 
 .nav__grid__column-5 a { 
     display: inline-block; 
