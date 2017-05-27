@@ -70,19 +70,13 @@ body, header, main, nav, footer, section, aside, article {
     padding-top: 14px;
     padding-bottom: 5px;
 }
-.menu-extras {
-    float: right;
-}
 
 .last__item {
     padding-right: 20px;
 }
  
-.navigation {
-    display: block!important;
-}
 
-.navigation-menu {
+.nav__container {
     float: right;
     list-style: none;
     margin: 0;
@@ -90,42 +84,44 @@ body, header, main, nav, footer, section, aside, article {
     position: relative;
 }
 
-.navigation-menu > li > a {
+.nav__container > li > a {
     padding-top: 32px;
     padding-bottom: 25px;
     min-height: 62px;
 }
 
-.navigation-menu {
+.nav__container {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
 }
 
-.navigation-menu::after {
+.nav__container::after {
     content: ' ';
     clear: both;
     display: block;
 }
-.navigation__item {
+.nav__grid__column-5  {
     float: left;
 }
-.navigation__item a {
+.nav__grid__column-5  a { /* bewust gedaan zodat het makkelijker is de items aan te klikken, ookal zit je er iets naast */
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     padding: 8px 15px;
     display: block;
 }
 
-.navigation__item a:hover {
+.nav__grid__column-5  a:hover {
     transition: all 0.3s ease;
     color: hsl(211, 30%, 69%);
 }
 
-.navigation__item a:active {
+.nav__grid__column-5  a:active {
     color: hsl(0, 0%, 30%);
 }
 
+
+/* second navigation */
 .second-nav__item {
     float: left;
 }
@@ -147,6 +143,22 @@ body, header, main, nav, footer, section, aside, article {
 
 .navigation-big {
     padding-top: 15%;
+}
+
+.second-nav__item a:hover:after {
+    width: 110%;   
+}
+.second-nav__item a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 20px;
+    background: hsl(225, 100%, 85%);
+    transition: width .3s ease-in-out;
+    z-index: -1;
+    margin-left: -5px;
+    margin-top: -20px;
+    
 }
 
 
@@ -608,60 +620,6 @@ li {
     font-size: 10px;
 }
 /******************** end footer *******************/
-
-.icon__nav {
-    display: none;
-    font-size: 17px;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 855px) {
-  .nav__nav a {
-    display: none;
-  }
-  .nav__nav a.icon__nav {
-    float: right;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 855px) {
-
-    .navigation__item {
-        float: right;
-        width: 100%;
-    }}
-  .nav__nav.responsive a.icon__nav {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-  }
-  .nav__nav.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
-
-
-.second-nav__item a:hover:after {
-    width: 110%;   
-}
-.second-nav__item a:after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 20px;
-    background: hsl(225, 100%, 85%);
-    transition: width .3s ease-in-out;
-    z-index: -1;
-    margin-left: -5px;
-    margin-top: -20px;
-    
-}
-
 
 /* grootte play button */
 

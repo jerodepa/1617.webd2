@@ -26,7 +26,7 @@
     background: transparent;
     clear: both;
 }
-
+.grid__column-5 { width: 20%; }
 .grid__column-3 { width: 25%; }
 .grid__column-4 { width: 33.33%; }
 .grid__column-6 { width: 16.67%; }
@@ -42,6 +42,7 @@
 .grid__column-4,
 .grid__column-8,
 .grid__column-6,
+.grid__column-5,
 .grid__column-3,
 .grid__column-2,
 .grid__column-1,
@@ -131,4 +132,11 @@
 
 .icon {
     color: white;
+}
+
+/**** nav grid ***/
+
+/* nav nieuw */
+.hamburger__container {
+    display: none;
 }
