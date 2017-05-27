@@ -114,6 +114,7 @@ body, header, main, nav, footer, section, aside, article {
 .nav__container { 
     width: 35%; 
     display: block; 
+    background-color: hsl(0, 0%, 13%);
     } 
 
 .hamburger { 
@@ -128,8 +129,7 @@ body, header, main, nav, footer, section, aside, article {
 .nav__grid__column-5 { 
     display: none; 
     width: 100%; 
-    transition: 0.3s;
-    background-color: hsl(0, 0%, 13%); 
+    transition: 0.3s; 
     } 
 .nav__grid__column-5 a { 
     display: inline-block; 
