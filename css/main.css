@@ -110,29 +110,6 @@ body, header, main, nav, footer, section, aside, article {
     display: none;
 }
 
-.hamburger { 
-    display: block; 
-    width: 30px; 
-    margin-top: 25px;
-    } 
-.hamburger__container {  
-    display: block;
-    float: right;
-    } 
-.nav__grid__column-5 { 
-    display: none; 
-    width: 100%; 
-    transition: all 0.3s ease; 
-    } 
-.nav__grid__column-5 a { 
-    display: inline-block; 
-    width: 100%; 
-    text-align: right; 
-    text-decoration: none; 
-    margin-top: 2px; 
-    padding: 10px 0px; 
-    }
-}
 
 /* second navigation */
 .second-nav__item {
@@ -676,4 +653,29 @@ li {
     width: 35%; 
     display: block; 
     } 
+
+.hamburger { 
+    display: block; 
+    width: 30px; 
+    margin-top: 25px;
+    } 
+.hamburger__container {  
+    display: block;
+    float: right;
+    } 
+.nav__grid__column-5 { 
+    display: none; 
+    width: 100%; 
+    transition: all 0.3s ease; 
+    } 
+.nav__grid__column-5 a { 
+    display: inline-block; 
+    width: 100%; 
+    text-align: right; 
+    text-decoration: none; 
+    margin-top: 2px; 
+    padding: 10px 0px; 
+    }
+
+    
 }
