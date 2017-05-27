@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Gotham';
-  src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
-     url('fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('gotham_bold.eot'); /* IE9 Compat Modes */
+  src: url('gotham-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('gotham-bold.woff') format('woff'), /* Modern Browsers */
+     url('gotham-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
      url('fonts/Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
    font-weight: 700;
    font-style: normal;
