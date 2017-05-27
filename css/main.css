@@ -671,7 +671,7 @@ li {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 .nav__container { 
     width: 35%; 
     display: block; 
