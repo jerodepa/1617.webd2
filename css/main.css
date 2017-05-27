@@ -110,12 +110,6 @@ body, header, main, nav, footer, section, aside, article {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
-.nav__container { 
-    width: 35%; 
-    display: block; 
-    } 
-
 .hamburger { 
     display: block; 
     width: 30px; 
@@ -128,7 +122,7 @@ body, header, main, nav, footer, section, aside, article {
 .nav__grid__column-5 { 
     display: none; 
     width: 100%; 
-    transition: 0.3s; 
+    transition: all 0.3s ease; 
     } 
 .nav__grid__column-5 a { 
     display: inline-block; 
@@ -314,7 +308,7 @@ body, header, main, nav, footer, section, aside, article {
 
 /********************  css about us ********************/
 .description {
-    height: 110%;
+    height: 827px;
 }
 
 .number {
@@ -331,19 +325,24 @@ body, header, main, nav, footer, section, aside, article {
     line-height: 1.20;
 }
 
-.centerzin {
+.center_better {
     padding-top: 110px;
     margin-bottom: 40px;
 }
 
 .team {
-    height: 110%;
+    height: 752px;
     background-color: hsl(128, 100%, 86%);
+}
+
+.center_team {
+    padding-top: 90px;
+    margin-bottom: 40px;
 }
 
 
 .quote {
-    height: 110%;
+    height: 752px;
     color: hsl(0, 0%, 13%);
     background-color: white;
 
@@ -355,7 +354,7 @@ body, header, main, nav, footer, section, aside, article {
     position: absolute;
     width: 60%;
     background-color: hsl(0, 0%, 13%);
-    height: 60%;
+    height: 451px;
     margin-left: 18%;
     margin-top: 150px;
 }
@@ -365,7 +364,7 @@ body, header, main, nav, footer, section, aside, article {
 }
 
 .telephone {
-    height: 110%;
+    height: 700px;
 }
 
 .call-banner {
@@ -425,7 +424,7 @@ textarea {
 /* end form */
 /* google maps */
 #divMap {
-    height: 70%;
+    height: 526px;
     left:0;
     top: 0;
     right: 0;
@@ -662,5 +661,18 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 33px;
-
 }
+
+/******************** mediaquery *******************/
+
+@media screen and (max-width: 854px) {
+    .banner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+.nav__container { 
+    width: 35%; 
+    display: block; 
+    } 
