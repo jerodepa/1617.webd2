@@ -120,7 +120,6 @@ body, header, main, nav, footer, section, aside, article {
     display: block; 
     width: 30px; 
     margin-top: 25px;
-    margin-right: 15px;
     } 
 .hamburger__container {  
     display: block;
