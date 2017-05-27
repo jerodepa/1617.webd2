@@ -18,7 +18,6 @@ function openAndClose() {
     }
 
 
-
 // kleur bar veranderd bij scroll
 var myNav = document.getElementById('topnav');
 window.onscroll = function () { 
@@ -32,6 +31,7 @@ window.onscroll = function () {
         myNav.classList.remove("nav-colored");
     }
 };
+
 // play audio
 
 var audioBtn = document.getElementById('knop1');
