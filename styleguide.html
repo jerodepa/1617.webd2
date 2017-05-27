@@ -32,11 +32,11 @@
     <!-- Icons -->
     <!-- http://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/icons/faviconicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/icons/faviconicon.png" sizes="16x16">
     <link rel="manifest" href="assets/icons/manifest.json">
     <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#ee9900">
-    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="shortcut icon" href="assets/icons/faviconicon.png">
     <meta name="apple-mobile-web-app-title" content="GDM">
     <meta name="application-name" content="GDM">
     <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
@@ -58,25 +58,56 @@
       <h3 class="styleguide">Functionele elementen</h3>
       <h2 class="styleguide">Koppen met bijhorend lettertype</h2>
 
-      <h1>H1: Dit is de eerste header. | Gotham | 2.8rem</h1>
-      <h2>H2: Dit is de tweede header. | Gotham | 5.2rem</h2>
-      <h3>H3: Dit is de derde header.  | Gotham | 4.8rem</h3>
-      <h4>H4: Dit is de vierde header. | Gotham | 1.4rem</h4>
-      <h5>H5: Dit is de vijfde header. | Gotham | 3.4rem</h5>
-      <h6>H6: Dit is de zesde header.  | Gotham | 2rem</h6>
-      <br>
+      <div class="grid__row">
+      <h1>H1: Dit is de eerste header. | Gotham bold | 12rem</h1>
+      </div>
+      <div class="grid__row">
+      <h2>H2: Dit is de tweede header. | Gotham bold| 6rem</h2>
+      </div>
+      <div class="grid__row">
+      <h3>H3: Dit is de derde header.  | Gotham bold | 10rem</h3>
+      </div>
+      <div class="grid__row">
+      <h4>H4: Dit is de vierde header. | Gotham bold | 1.6rem</h4>
+      </div>
+      <div class="grid__row">
+      <h5>H5: Dit is de vijfde header. | Gotham regular| 3rem</h5>
+      </div>
+      <div class="grid__row">
+      <h6>H6: Dit is de zesde header.  | Gotham bold | 3rem</h6>
+      </div>
 
-      <p class='sansserif'>
+      <div class="grid__row padding-bottom-bottom">
+      <p >
         Dit is een voorbeeld van een gewone tekst. In deze tekst kan het zijn dat er links aanwezig zijn, 
         zoals <a class="linkss" href="#">deze hier</a>. Als je er op klikt, gebeurt er niks. Dit komt omdat dit een voorbeeld
-        is van een tekst en link in deze styleguide.
+        is van een tekst en link in deze styleguide. Het font van deze tekst is Gotham Regular, 1.4rem
       </p>
-      <br>
+      </div>
 
       <h2 class="styleguide">Knoppen</h2>
-        <a class="btnsmall" href="#">Kleine button</a>
-        <a class="btnbig" href="#">Grote button</a>
-    </div>
+      <div class="grid__row">
+        <div class="grid__column-4">
+          <a class="btnbig" href="#">HOME BUTTON</a>
+        </div>
+        <div class="grid__column-4">
+          <a class="btnlink" href="pages/onzeaanpak.html">INLINE BUTTON</a>
+        </div>
+        <div class="grid__column-4">
+          <input type="submit" class="form__submit" value="SUBMIT">
+        </div>
+      </div>
+
+      <h2 class="styleguide">Logo</h2>
+      <div class="grid__row">
+        <div class="grid__column-2">
+        </div>
+        <div class="grid__column-2">
+
+        </div>
+
+      
+      </div>
 
     <footer class="styleguidefooter">  
       <div>
@@ -86,6 +117,6 @@
     <!-- Scripts: Vendors -->
       <!-- For example: jQuery, lodash, handlebars, ... -->
     <!-- Scripts: App -->
-    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>
