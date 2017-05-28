@@ -34,26 +34,4 @@ window.onscroll = function () {
 
 // play audio
 
-var audioBtn = document.getElementById('knop1');
-var audioBtnTwo = document.getElementById('knop2');
-var audioBtnThree = document.getElementById('knop2');
-
-
-
-audioBtn.onclick = function() {
-  audioFlumePause();
-} 
-
-function audioFlumePause() {
-    var flumeSong = new Audio('assets/audio/flumeHyperreal.mp3');
-    var isPlay = true;
-    
-
-    if(isPlay = true) {
-        flumeSong.play();
-        audioBtn.onclick = function() {
-            flumeSong.pause();
-        }
-    }
-}
 
