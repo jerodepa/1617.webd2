@@ -36,7 +36,6 @@ window.onscroll = function () {
 // speel af audio flume
 var play1 = document.getElementById("play1");
 var pause1 = document.getElementById("pause1");
-var play = 0 
 var audioFlume = new Audio('assets/audio/FlumeHyperreal.mp3');
 
     play1.addEventListener('click', function() {
