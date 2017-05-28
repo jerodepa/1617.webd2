@@ -34,27 +34,27 @@ window.onscroll = function () {
 
 
 // speel af audio figr
-var play2 = document.getElementById("play2");
-var pause2 = document.getElementById("pause2");
-var audioFiGr = new Audio('assets/audio/figrWhatAboutMe.mp3');
+var play1 = document.getElementById("play1");
+var pause1 = document.getElementById("pause1");
+var audioFlume = new Audio('assets/audio/FlumeHyperreal.mp3');
 
-    play2.addEventListener('click', function() {
-        play2.disabled = true;
-        pause2.disabled = false;
-        audioFiGr.play();
+    play1.addEventListener('click', function() {
+        play1.disabled = true;
+        pause1.disabled = false;
+        audioFlume.play();
     });
 
-    pause2.addEventListener('click', function() {
-        play2.disabled = false;
-        pause2.disabled = true;
-        audioFiGr.pause();
+    pause1.addEventListener('click', function() {
+        play1.disabled = false;
+        pause1.disabled = true;
+        audioFlume.pause();
     });
 
-    for(i = 0; audioFiGr.length; i++) {
-        if(audioFiGr.ended) {
-            audioFiGr.currentTime(0);
-            play2.disabled = false;
-            pause2.disabled = true;
+    for(i = 0; audioFlume.length; i++) {
+        if(audioFlume.ended) {
+            audioFlume.currentTime(0);
+            play1.disabled = false;
+            pause1.disabled = true;
         }
     }
 
@@ -84,26 +84,26 @@ var audioFiGr = new Audio('assets/audio/figrWhatAboutMe.mp3');
     }
 
 // speel af audio figr
-var play2 = document.getElementById("play2");
-var pause2 = document.getElementById("pause2");
-var audioFiGr = new Audio('assets/audio/figrWhatAboutMe.mp3');
+var play3 = document.getElementById("play3");
+var pause3 = document.getElementById("pause3");
+var audioMura = new Audio('assets/audio/muraMasaRemix.mp3');
 
-    play2.addEventListener('click', function() {
-        play2.disabled = true;
-        pause2.disabled = false;
-        audioFiGr.play();
+    play3.addEventListener('click', function() {
+        play3.disabled = true;
+        pause3.disabled = false;
+        audioMura.play();
     });
 
-    pause2.addEventListener('click', function() {
-        play2.disabled = false;
-        pause2.disabled = true;
-        audioFiGr.pause();
+    pause3.addEventListener('click', function() {
+        play3.disabled = false;
+        pause3.disabled = true;
+        audioMura.pause();
     });
 
-    for(i = 0; audioFiGr.length; i++) {
-        if(audioFiGr.ended) {
-            audioFiGr.currentTime(0);
-            play2.disabled = false;
-            pause2.disabled = true;
+    for(i = 0; audioMura.length; i++) {
+        if(audioMura.ended) {
+            audioMura.currentTime(0);
+            play3.disabled = false;
+            pause3.disabled = true;
         }
     }
