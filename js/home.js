@@ -86,7 +86,7 @@ var audioFiGr = new Audio('assets/audio/figrWhatAboutMe.mp3');
 // speel af audio  mura masa
 var play3 = document.getElementById("play3");
 var pause3 = document.getElementById("pause3");
-var audioFlume = new Audio('assets/audio/FlumeHyperreal.mp3');
+var audioFlume = new Audio('assets/audio/muraMasaRemix.mp3');
 
     play3.addEventListener('click', function() {
         play3.disabled = true;
