@@ -7,7 +7,7 @@ body,html  {
     width: 100%;
     margin: 0 auto;
     height: 100%;
-    font-family: 'gotham';
+    font-family: 'GothamRegular';
 }
 
 body, header, main, nav, footer, section, aside, article {
@@ -361,7 +361,7 @@ input {
     border: solid 2px hsl(0, 0%, 100%);
     background-color: transparent;
     font-size: 16px;
-    font-family: 'Gotham';
+    font-family: 'GothamRegular';
     color: hsl(0, 0%, 100%);
     box-sizing: border-box;
     outline: none;
@@ -379,7 +379,7 @@ textarea {
     border: solid 2px hsl(0, 0%, 100%);
     background-color: transparent;
     font-size: 16px;
-    font-family: 'Gotham';
+    font-family: 'GothamRegular';
     color: hsl(0, 0%, 100%);
     box-sizing: border-box;
     outline: none;

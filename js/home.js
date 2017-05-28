@@ -36,6 +36,7 @@ window.onscroll = function () {
 // speel af audio flume
 var play1 = document.getElementById("play1");
 var pause1 = document.getElementById("pause1");
+var play = 0 
 var audioFlume = new Audio('assets/audio/FlumeHyperreal.mp3');
 
     play1.addEventListener('click', function() {
@@ -86,23 +87,23 @@ var audioFiGr = new Audio('assets/audio/figrWhatAboutMe.mp3');
 // speel af audio  mura masa
 var play3 = document.getElementById("play3");
 var pause3 = document.getElementById("pause3");
-var audioFlume = new Audio('assets/audio/muraMasaRemix.mp3');
+var audioMura = new Audio('assets/audio/muraMasaRemix.mp3');
 
     play3.addEventListener('click', function() {
         play3.disabled = true;
         pause3.disabled = false;
-        audioFlume.play();
+        audioMura.play();
     });
 
     pause3.addEventListener('click', function() {
         play3.disabled = false;
         pause3.disabled = true;
-        audioFlume.pause();
+        audioMura.pause();
     });
 
-    for(i = 0; audioFlume.length; i++) {
-        if(audioFlume.ended) {
-            audioFlume.currentTime(0);
+    for(i = 0; audioMura.length; i++) {
+        if(audioMura.ended) {
+            audioMura.currentTime(0);
             play3.disabled = false;
             pause3.disabled = true;
         }
